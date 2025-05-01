@@ -10,7 +10,7 @@ with col2:
     st.markdown("### </u>Harshini Vutukuri</u> ", unsafe_allow_html=True)
     st.markdown("**`human = True`** Fueled by a deep-seated passion for Artificial Intelligence, I am an AI/ML developer dedicated to transform innovative ideas into impactful solutions.  **Let’s connect!**")
     st.markdown("**Code Train Fine-tune Repeat❤️**")
-    st.markdown("**📄[Resume](https://drive.google.com/file/d/15J8CczzIFw2rpGkdoJMwardi06IAYz6H/view?usp=sharing) &nbsp; &nbsp;  🌎[LinkedIn](https://www.linkedin.com/in/harshini1v/) &nbsp; &nbsp; 👩🏻‍💻[GitHub](https://github.com/Harshin1V)**")
+    st.markdown("**📄[Resume](https://drive.google.com/file/d/1nib_W2rZRvYPT59PGMasXqtWxnST0uLR/view?usp=sharing) &nbsp; &nbsp;  🌎[LinkedIn](https://www.linkedin.com/in/harshini1v/) &nbsp; &nbsp; 👩🏻‍💻[GitHub](https://github.com/Harshin1V)**")
 
 st.markdown("---")
 st.markdown("### Projects🏅")
