@@ -119,16 +119,14 @@ with col2:
                 """) 
 
 
-
-
 st.write("---")
 # 5
 st.markdown("""
-                ##### 📦 **Work Experience:**
-                **Software Developer**
-                <em>IBM, Bangalore, India | Jan 2024 – Present</em>
+                #### 💼 **Work Experience:**
+                **Software Developer**<br>*IBM, Bangalore, India | Jan 2024 – Present*
                 - Automated 65% of Z-system test cases using Robot Framework, reducing regression test cycles.
                 - Built and optimized CI/CD pipelines with Jenkins and Groovy, accelerating integration frequency.
                 - Collaborated with accessibility and security teams to ensure compliance with enterprise standards.
                 - Streamlined issue resolution workflows, cutting debugging and defect tracking tools turnaround by 40%.
-                 """)
+                
+            """, unsafe_allow_html=True)
