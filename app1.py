@@ -123,7 +123,12 @@ with col2:
 
 st.write("---")
 # 5
-st.markdown(" ### **Work Experience:** ")
-st.markdown("**Software Developer** | **IBM z-Firmware (1.5+ years)**")
-st.markdown("- Developed Infrastructure as Code (IaC) using Terraform and Ansible, modernizing pipelines and enhancing operational efficiency. Managed Jenkins-based driver pipelines for daily builds and regression testing, ensuring timely issue resolution and build continuity.")  
-st.markdown("- Collaborated cross-functionally with global teams, proactively resolving issues, providing updates, and driving continuous improvements.")  
+st.markdown("""
+                ##### 📦 **Work Experience:**
+                **Software Developer**
+                <em>IBM, Bangalore, India | Jan 2024 – Present</em>
+                - Automated 65% of Z-system test cases using Robot Framework, reducing regression test cycles.
+                - Built and optimized CI/CD pipelines with Jenkins and Groovy, accelerating integration frequency.
+                - Collaborated with accessibility and security teams to ensure compliance with enterprise standards.
+                - Streamlined issue resolution workflows, cutting debugging and defect tracking tools turnaround by 40%.
+                 """)
