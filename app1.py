@@ -15,14 +15,16 @@ with col2:
 st.markdown("---")
 st.markdown("### Projects🏅")
 
-st.write("""
-         #### 🧠 **Autonomous Agent System** [GitHub](https://github.com/Harshin1V/CodeAgents)
-        - Designed code agents using **Hugging Face SmolAgents**, integrating **sandboxing** (E2B), multi-agent systems, and performance evaluation to autonomously execute complex tasks like web browsing, data extraction and multi-step reasoning.
-        """)
+
 
 st.write("""
          #### 📄 **Advanced RAG System with Feedback Integration** [GitHub](https://github.com/Harshin1V/Hybrid-RAG)
          - Developed and deployed a document Q&A system on Streamlit Cloud, integrating hybrid retrieval (semantic embeddings + BM25) with real-time feedback loops, utilizing ngrok to expose the Ollama LLM backend for dynamic retriever adjustment and performance monitoring.
+        """)
+
+st.write("""
+         #### 🧠 **Autonomous Agent System** [GitHub](https://github.com/Harshin1V/CodeAgents)
+        - Designed code agents using **Hugging Face SmolAgents**, integrating **sandboxing** (E2B), multi-agent systems, and performance evaluation to autonomously execute complex tasks like web browsing, data extraction and multi-step reasoning.
         """)
 
 st.markdown("""
