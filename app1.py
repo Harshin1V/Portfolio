@@ -9,7 +9,7 @@ st.set_page_config(
 # CSS 
 st.markdown("""
     <style>
-        body, .stMain .st-emotion-cache-bm2z3a .en45cdb1 {
+        body, .stMain .st-emotion-cache-bm2z3a .en45cdb1, .stAppViewContainer .appview-container .st-emotion-cache-1yiq2ps .en45cdb0{
             background-color: #000000 !important;
         }
         .block-container, .main {
