@@ -3,8 +3,7 @@ import webbrowser
 
 st.set_page_config(
     page_title="Harshini Vutukuri",
-    page_icon="profile-pic.png",
-    layout = "wide"
+    page_icon="profile-pic.png"
 )
 
 # CSS 
