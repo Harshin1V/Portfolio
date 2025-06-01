@@ -46,7 +46,7 @@ st.markdown("""
             font-weight: bold;
         }
         .highlight-box {
-            background: #0f161a;
+            background: #171a1c;
             padding: 1rem;
             border-radius: 12px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.5);
@@ -62,12 +62,12 @@ st.markdown("""
             color: #cccccc;
         }
         .section-title {
-            color: #66ccff;
+            color: #171a1c;
             font-size: 1.8rem;
             margin-top: 2rem;
         }
         .skill-section, .experience-box {
-            background: #0f161a;
+            background: #171a1c;
             padding: 1rem;
             border-radius: 10px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.4);
