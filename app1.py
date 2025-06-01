@@ -11,6 +11,7 @@ st.set_page_config(
 st.markdown("""
     <style>
         body, .stMain .st-emotion-cache-bm2z3a .en45cdb1, .stAppViewContainer .appview-container .st-emotion-cache-1yiq2ps .en45cdb0{
+            max-width: 800px
             background-color: #000000 !important;
         }
         .block-container, .main {
