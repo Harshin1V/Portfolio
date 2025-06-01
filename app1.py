@@ -16,7 +16,7 @@ st.markdown("""
             background-color: #000000 !important;
         }
         .main {
-            background-color: #121212;
+            background-color: #000000;
             padding: 2rem;
             font-family: 'Segoe UI', sans-serif;
             color: #f5f5f5;
