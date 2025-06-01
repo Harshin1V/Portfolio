@@ -1,9 +1,20 @@
 import streamlit as st
 import webbrowser
 
-# Apply custom CSS for dark theme styling
+st.set_page_config(
+    page_title="Harshini Vutukuri",
+    page_icon="profile-pic.png"
+)
+
+# CSS 
 st.markdown("""
     <style>
+        body {
+            background-color: #000000 !important;
+        }
+        .block-container, .main {
+            background-color: #000000 !important;
+        }
         .main {
             background-color: #121212;
             padding: 2rem;
@@ -84,7 +95,7 @@ st.markdown("""
 
 col1, col2 = st.columns([1, 2])
 with col1:
-    st.image("profile-pic.png", width=200, use_container_width=False, output_format="PNG")
+    st.image("profile-pic.png", width=200, use_column_width=False, output_format="PNG")
 
 with col2:
     st.markdown("<div class='header-title'>Harshini Vutukuri</div>", unsafe_allow_html=True)
