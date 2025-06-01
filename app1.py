@@ -62,7 +62,7 @@ st.markdown("""
             color: #cccccc;
         }
         .section-title {
-            color: #171a1c;
+            color: #66ccff;
             font-size: 1.8rem;
             margin-top: 2rem;
         }
