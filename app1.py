@@ -3,7 +3,8 @@ import webbrowser
 
 st.set_page_config(
     page_title="Harshini Vutukuri",
-    page_icon="profile-pic.png"
+    page_icon="profile-pic.png",
+    layout = "wide"
 )
 
 # CSS 
@@ -16,6 +17,7 @@ st.markdown("""
             background-color: #000000 !important;
         }
         .main {
+            max-width: 800px
             background-color: #000000;
             padding: 2rem;
             font-family: 'Segoe UI', sans-serif;
