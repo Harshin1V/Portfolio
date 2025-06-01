@@ -67,7 +67,7 @@ st.markdown("""
             margin-top: 2rem;
         }
         .skill-section, .experience-box {
-            background: #171a1c;
+            background: #0f161a;
             padding: 1rem;
             border-radius: 10px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.4);
