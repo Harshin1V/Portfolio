@@ -75,7 +75,7 @@ st.markdown("""
             color: #66ccff !important;
         }
         .skill-section {
-        background-color: #1e1e1e;
+        background-color: #000000;
         padding: 1rem;
         border-radius: 8px;
         margin-bottom: 1rem;
