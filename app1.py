@@ -95,7 +95,7 @@ st.markdown("""
 
 col1, col2 = st.columns([1, 2])
 with col1:
-    st.image("profile-pic.png", width=200, use_column_width=False, output_format="PNG")
+    st.image("profile-pic.png", width=200, use_container_width=False, output_format="PNG")
 
 with col2:
     st.markdown("<div class='header-title'>Harshini Vutukuri</div>", unsafe_allow_html=True)
