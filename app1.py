@@ -112,7 +112,7 @@ with col1:
 
 with col2:
     st.markdown("<div class='header-title'>Harshini Vutukuri</div>", unsafe_allow_html=True)
-    st.markdown("<div class='intro'><b> human = True</b> Fueled by a deep-seated passion for Artificial Intelligence, I am an AI/ML developer dedicated to transforming innovative ideas into impactful solutions. <br>Let’s connect! <br><br><b>Code. Train. Fine-tune. Repeat. ❤️</b> <p></div>", unsafe_allow_html=True)
+    st.markdown("<div class='intro'><b> human = True</b> Fueled by a deep-seated passion for Artificial Intelligence, I am an AI/ML developer dedicated to transforming innovative ideas into impactful solutions. <br>Let’s connect! <br><br><b>Code Train Fine-tune Repeat❤️</b> <p></div>", unsafe_allow_html=True)
     st.markdown("""
         <div class='links'>
         📄 <a href='https://drive.google.com/file/d/139YJS2doN0JLXtxIP-rdkk6FuBavGtKG/view?usp=sharing' target='_blank'>Resume</a>
