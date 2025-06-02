@@ -116,7 +116,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<div class='section-title'>Projects 🏅</div>", unsafe_allow_html=True)
 
 projects = [
-    {"title": "RAG Application built on AWS", "link": "https://github.com/Harshin1V/rag-app",
+    {"title": "RAG Application built on AWS", "link": "https://github.com/Harshin1V/rag-app-on-aws",
      "desc": "Deployed a scalable Retrieval-Augmented Generation (RAG) application backend on AWS using Terraform Infrastructure as Code (IaC), integrating Google Gemini Pro and Embedding models for AI-powered document querying and generation. This backend leverages a serverless architecture (Lambda, API Gateway), PostgreSQL RDS with pgvector for efficient semantic search, and Cognito authentication. The project includes CI/CD with GitHub Actions for automated deployment and features a Streamlit UI for user interaction."},
     {"title": "Autonomous Agent System", "link": "https://github.com/Harshin1V/CodeAgents",
      "desc": "Explored the evolution of AI agents by leveraging Hugging Face's smolagents, demonstrating stages from basic conversational agents to advanced types with capabilities like secure code execution (sandboxing) and performing deep research tasks. The project detailed agent design principles, introduced evaluation metrics, and provided practical implementations and examples primarily within Jupyter Notebooks."},
