@@ -149,12 +149,12 @@ st.markdown("<div class='section-title'>Skills 👩‍💻</div>", unsafe_allow_
 
 skill_sections = [
     ("🖥️ Programming & Development", [
-        "Python, Shell Scripting", 
+        "Python, SQL", 
         "FastAPI, Django, Streamlit", 
         "RESTful API Development", 
         "Object-Oriented Programming (OOP)", 
         "Data Structures and Algorithms",
-        "Jupyter Notebooks"
+        "Jupyter Notebooks & Collab"
     ]),
 
     ("📊 Machine Learning", [
@@ -198,7 +198,8 @@ skill_sections = [
         "Terraform (IaC), AWS Lambda, S3, RDS",
         "AWS Cognito, Secrets Manager"," API Gateway",
         "CloudWatch, SNS, VPC",
-        "CI/CD Pipelines ","(GitHub Actions, Jenkins)"
+        "CI/CD Pipelines ",
+        "GitHub Actions, Jenkins"
     ])
 ]
 
