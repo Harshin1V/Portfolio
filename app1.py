@@ -115,7 +115,7 @@ with col2:
     st.markdown("<div class='intro'><b> human = True</b> Fueled by a deep-seated passion for Artificial Intelligence, I am an AI/ML developer dedicated to transforming innovative ideas into impactful solutions. <br>Let’s connect! <br><br><b>Code Train Fine-tune Repeat❤️</b> <p></div>", unsafe_allow_html=True)
     st.markdown("""
         <div class='links'>
-        📄 <a href='https://drive.google.com/file/d/139YJS2doN0JLXtxIP-rdkk6FuBavGtKG/view?usp=sharing' target='_blank'>Resume</a>
+        📄 <a href='https://drive.google.com/file/d/1l3B6VWSPvAGMp4s9UYwdrgm48iaDRwsp/view?usp=sharing' target='_blank'>Resume</a>
         🌎 <a href='https://www.linkedin.com/in/harshini1v/' target='_blank'>LinkedIn</a>
         👩🏻‍💻 <a href='https://github.com/Harshin1V' target='_blank'>GitHub</a>
         📩 <a href="mailto:harshinivutukuri5@gmail.com?subject=Hello%20Harshini!" target="_blank">Email me</a>
