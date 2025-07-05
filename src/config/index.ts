@@ -67,7 +67,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Harshini Vutukuri, a passionate AI ML Developer with experience building and deploying Full stack GenAI applications. With a strong background in both ML and GENAI, I thrive at the intersection of creativity and machine learning, where innovative ideas turn into intelligent, data-driven solutions.`,
+      Hi, I’m Harshini Vutukuri, an AI/ML Developer passionate about building and deploying end-to-end Generative AI and machine learning solutions. With a solid foundation in both traditional ML and cutting-edge LLMs, I thrive at the intersection of creativity and intelligent systems—turning innovative ideas into impactful, data-driven applications. I love working on real-world problems where AI meets user-centric design and scalable backend engineering.`,
     image: "/Mee.jpeg",
   },
 };
