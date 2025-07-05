@@ -13,7 +13,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Resume", href: "https://drive.google.com/file/d/1l3B6VWSPvAGMp4s9UYwdrgm48iaDRwsp/view" },
+    { text: "Resume", href: "https://drive.google.com/file/d/1k0HsEcttQ4SuLc8Si5A4HhI88PNbUcHt/view" },
     { text: "LinkedIn", href: "https://www.linkedin.com/in/harshini1v/" },
     { text: "Github", href: "https://github.com/Harshin1V" },
   ],
