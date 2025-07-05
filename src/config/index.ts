@@ -1,0 +1,75 @@
+import type { SiteConfig, SiteContent } from "../types";
+
+export const SITE_CONFIG: SiteConfig = {
+  title: "Harshini Vutukuri — AI ML Developer",
+  author: "Harshini",
+  description:
+    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+  lang: "en",
+  siteLogo: "/Mee.png",
+  navLinks: [
+    { text: "Experience", href: "#experience" },
+    { text: "Projects", href: "#projects" },
+    { text: "About", href: "#about" },
+  ],
+  socialLinks: [
+    { text: "Resume", href: "https://drive.google.com/file/d/1l3B6VWSPvAGMp4s9UYwdrgm48iaDRwsp/view" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/harshini1v/" },
+    { text: "Github", href: "https://github.com/Harshin1V" },
+  ],
+  socialImage: "/zen-og.png",
+  canonicalURL: "https://astro-zen.vercel.app",
+};
+
+export const SITE_CONTENT: SiteContent = {
+  hero: {
+    name: "Harshini Vutukuri",
+    specialty: "AI ML Developer",
+    summary:
+      "Fueled by a deep-seated passion for Artificial Intelligence, I am an AI/ML developer dedicated to transforming innovative ideas into impactful solutions.",
+      // "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    email: "harshinivutukuri5@gmail.com",
+  },
+  experience: [
+    {
+      company: "IBM",
+      position: "Backend Developer(ML)",
+      startDate: "Jan 2024",
+      endDate: "Jul 2025",
+      summary: [
+        "Contributed to developing a multi-agent GenAI platform using LangGraph, watsonx.ai, and FastAPI to automate CRM workflows like ticketing and opportunity creation; implemented RAG, SQL, and Reflection agents, improving context-aware insights from transcripts by 45%.",
+        "Containerized backend services using Docker, Podman, and Terraform; built streaming APIs with FastAPI and PostgreSQL to enable seamless integration with Jira, Salesforce, and watsonx Orchestrate.",
+        "Automated legacy Z-system test cases using Robot Framework and optimized CI/CD pipelines with Jenkins and Groovy, reducing regression time and defect turnaround by 40% while ensuring accessibility and security compliance.",
+        ],
+        
+    },
+    
+  ],
+  projects: [
+    {
+      name: "RAG Application built on AWS",
+      summary: "Deployed a scalable RAG backend on AWS with serverless architecture, semantic search via pgvector, Gemini Pro integration, and CI/CD using GitHub Actions.",
+      linkSource: "https://github.com/Harshin1V/rag-app-on-aws",
+      image: "/rag.png",
+    },
+    {
+      name: "Autonomous Agent System",
+      summary: "Explored AI agent evolution using Hugging Face’s smolagents, showcasing secure code execution, deep research tasks, and practical agent design with evaluations",
+      linkSource: "https://github.com/Harshin1V/CodeAgents",
+      image: "/agentic.png",
+    },
+    {
+      name: "Efficient Lottery Ticket Pruning with Optimization",
+      summary: "Applied Lottery Ticket Hypothesis on MNIST using PyTorch, showing iterative pruning boosts performance over random reinitialization.",
+      linkSource: "https://github.com/Harshin1V/Lottery-Ticket-Hypothesis",
+      image: "/lth.png",
+    },
+  ],
+  about: {
+    description: `
+      Hi, I’m Harshini Vutukuri, a passionate AI ML Developer with experience building and deploying Full stack GenAI applications. With a strong background in both ML and GENAI, I thrive at the intersection of creativity and machine learning, where innovative ideas turn into intelligent, data-driven solutions.`,
+    image: "/Mee.jpeg",
+  },
+};
+
+// #5755ff
