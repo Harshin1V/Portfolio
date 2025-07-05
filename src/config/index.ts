@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Harshini Vutukuri — AI ML Developer",
   author: "Harshini",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "AI ML Developer",
   lang: "en",
   siteLogo: "/Mee.png",
   navLinks: [
@@ -27,15 +27,14 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "AI ML Developer",
     summary:
       "Fueled by a deep-seated passion for Artificial Intelligence, I am an AI/ML developer dedicated to transforming innovative ideas into impactful solutions.",
-      // "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "harshinivutukuri5@gmail.com",
+      email: "harshinivutukuri5@gmail.com",
   },
   experience: [
     {
       company: "IBM",
       position: "Backend Developer(ML)",
       startDate: "Jan 2024",
-      endDate: "Jul 2025",
+      endDate: "Present",
       summary: [
         "Contributed to developing a multi-agent GenAI platform using LangGraph, watsonx.ai, and FastAPI to automate CRM workflows like ticketing and opportunity creation; implemented RAG, SQL, and Reflection agents, improving context-aware insights from transcripts by 45%.",
         "Containerized backend services using Docker, Podman, and Terraform; built streaming APIs with FastAPI and PostgreSQL to enable seamless integration with Jira, Salesforce, and watsonx Orchestrate.",
