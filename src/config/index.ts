@@ -17,8 +17,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "LinkedIn", href: "https://www.linkedin.com/in/harshini1v/" },
     { text: "Github", href: "https://github.com/Harshin1V" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/vercel.png",
+  canonicalURL: "https://harshin1v.vercel.app/",
 };
 
 export const SITE_CONTENT: SiteContent = {
