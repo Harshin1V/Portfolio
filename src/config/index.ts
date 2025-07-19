@@ -36,7 +36,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Jan 2024",
       endDate: "Present",
       summary: [
-        "Contributed to developing a multi-agent GenAI platform using LangGraph, watsonx.ai, and FastAPI to automate CRM workflows like ticketing and opportunity creation; implemented RAG, SQL, and Reflection agents, improving context-aware insights from transcripts by 45%.",
+        "Contributed to developing a multi-agent GenAI platform using LangGraph, watsonx.ai, and FastAPI to automate CRM workflows like ticketing and opportunity creation. Implemented RAG, SQL, and Reflection agents, improving context-aware insights from transcripts by 45%.",
         "Containerized backend services using Docker, Podman, and Terraform; built streaming APIs with FastAPI and PostgreSQL to enable seamless integration with Jira, Salesforce, and watsonx Orchestrate.",
         "Automated legacy Z-system test cases using Robot Framework and optimized CI/CD pipelines with Jenkins and Groovy, reducing regression time and defect turnaround by 40% while ensuring accessibility and security compliance.",
         ],
