@@ -89,18 +89,32 @@ const Hero = () => {
 
         {/* Enhanced CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
-          <Button size="lg" className="px-8 py-4 text-lg glow-effect magnetic-hover group">
-            <span className="group-hover:scale-110 transition-transform">View My Work</span>
-            <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="px-8 py-4 text-lg border-border-light hover:border-primary hover:text-primary magnetic-hover group"
-          >
-            <Download className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
-            <span>Download Resume</span>
-          </Button>
+        <a
+  href="https://github.com/Harshin1V?tab=repositories"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button size="lg" className="px-8 py-4 text-lg glow-effect magnetic-hover group">
+    <span className="group-hover:scale-110 transition-transform">View My Work</span>
+    <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+  </Button>
+</a>
+
+          <a
+  href="https://drive.google.com/file/d/1uxaxbrfIeMTlNp8_JobUwU3PPNEC3fAG/view"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button
+    variant="outline"
+    size="lg"
+    className="px-8 py-4 text-lg border-border-light hover:border-primary hover:text-primary magnetic-hover group"
+  >
+    <Download className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
+    <span>Download Resume</span>
+  </Button>
+</a>
+
         </div>
 
         {/* Enhanced scroll indicator */}
