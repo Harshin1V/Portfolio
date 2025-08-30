@@ -5,8 +5,11 @@ import { Code, Database, Palette, Zap } from 'lucide-react';
 const About = () => {
   const skills = {
     frontend: ['React', 'Vue.js', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vite'],
-    backend: ['Node.js', 'Python', 'Express', 'FastAPI', 'PostgreSQL', 'MongoDB'],
-    tools: ['Git', 'Docker', 'AWS', 'Vercel', 'Figma', 'VS Code']
+    backend: ['Python', 'FastAPI', 'MongoDB','PostgreSQL',  'Node.js',  'Express',  'PostgreSQL', 'Flask'],
+    tools: ['Git', 'Docker', 'AWS', 'Vercel', 'VS Code','GitHub Actions'],
+    MLOps: ['Docker', 'Kubernetes', 'MLflow', 'DVC', 'Weights & Biases', 'AWS (SageMaker, EC2, Lambda...)', 'Vercel'],
+    CoreAIML: ['Python', 'PyTorch', 'TensorFlow', 'Keras','Scikit-Learn', 'XGBoost', 'LightGBM' ,'Hugging Face', 'Transformers', 'LangChain' ,'OpenCV', 'SentenceTransformers', 'Stable Diffusion'],
+    ObservabilityMonitoring:['Prometheus', 'Grafana', 'Evidently AI', 'WhyLabs', 'Sentry'],
   };
 
   const highlights = [
@@ -40,8 +43,8 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Passionate developer with 5+ years of experience building web applications.
-            I love turning complex problems into simple, beautiful solutions.
+            Passionate AI/ML developer with 2+ years of experience building AI Solutions.
+            I enjoy turning complex problems into working solutions.
           </p>
         </div>
 
@@ -94,6 +97,16 @@ const About = () => {
           </h3>
           
           <div className="grid md:grid-cols-3 gap-8">
+          <div className="text-center space-y-4">
+              <h4 className="text-lg font-semibold text-primary">CoreAIML</h4>
+              <div className="flex flex-wrap justify-center gap-2">
+                {skills.CoreAIML.map((skill) => (
+                  <Badge key={skill} variant="secondary">
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            </div>
             <div className="text-center space-y-4">
               <h4 className="text-lg font-semibold text-primary">Frontend</h4>
               <div className="flex flex-wrap justify-center gap-2">
@@ -109,6 +122,27 @@ const About = () => {
               <h4 className="text-lg font-semibold text-primary">Backend</h4>
               <div className="flex flex-wrap justify-center gap-2">
                 {skills.backend.map((skill) => (
+                  <Badge key={skill} variant="secondary">
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+            
+            <div className="text-center space-y-4">
+              <h4 className="text-lg font-semibold text-primary">MLOps</h4>
+              <div className="flex flex-wrap justify-center gap-2">
+                {skills.MLOps.map((skill) => (
+                  <Badge key={skill} variant="secondary">
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+            <div className="text-center space-y-4">
+              <h4 className="text-lg font-semibold text-primary">ObservabilityMonitoring</h4>
+              <div className="flex flex-wrap justify-center gap-2">
+                {skills.ObservabilityMonitoring.map((skill) => (
                   <Badge key={skill} variant="secondary">
                     {skill}
                   </Badge>

@@ -5,10 +5,10 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Innovations Inc.',
-      period: '2022 - Present',
-      location: 'Remote',
+      title: 'Backend Developer',
+      company: 'IBM',
+      period: '2024 - Present',
+      location: 'Banglore',
       description: 'Lead development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and architected microservices solutions.',
       technologies: ['React', 'Node.js', 'AWS', 'Docker', 'TypeScript'],
       achievements: [
@@ -19,10 +19,10 @@ const Experience = () => {
     },
     {
       id: 2,
-      title: 'Full Stack Developer',
-      company: 'Digital Solutions Co.',
-      period: '2020 - 2022',
-      location: 'San Francisco, CA',
+      title: 'Intern',
+      company: 'IBM',
+      period: '2024 - 2024',
+      location: 'Banglore',
       description: 'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to implement pixel-perfect UIs.',
       technologies: ['Vue.js', 'Express', 'MongoDB', 'Redis', 'SCSS'],
       achievements: [
@@ -30,29 +30,15 @@ const Experience = () => {
         'Improved client satisfaction by 25%',
         'Established coding standards and best practices'
       ]
-    },
-    {
-      id: 3,
-      title: 'Frontend Developer',
-      company: 'StartupXYZ',
-      period: '2019 - 2020',
-      location: 'New York, NY',
-      description: 'Built responsive web applications and collaborated with product team to define user requirements. Focused on creating exceptional user experiences.',
-      technologies: ['React', 'JavaScript', 'Sass', 'Webpack', 'Jest'],
-      achievements: [
-        'Reduced page load time by 50%',
-        'Increased user engagement by 30%',
-        'Implemented comprehensive testing suite'
-      ]
     }
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Science in Computer Science',
-      school: 'University of Technology',
-      period: '2015 - 2019',
-      description: 'Graduated Magna Cum Laude. Focused on software engineering, algorithms, and web development.'
+      degree: 'Bachelor of Technology in Computer Science',
+      school: 'GNITS, Hyderabad',
+      period: '2020 - 2024',
+      description: 'Focused on software engineering, AI/ML, algorithms and web development.'
     }
   ];
 
@@ -64,7 +50,7 @@ const Experience = () => {
             Work <span className="gradient-text">Experience</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            My professional journey in software development
+            My professional journey in Tech space
           </p>
         </div>
 

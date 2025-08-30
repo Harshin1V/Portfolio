@@ -69,8 +69,8 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A collection of projects that showcase my skills in full-stack development,
-            UI/UX design, and modern web technologies with real-world impact.
+          A curated selection of AI/ML projects demonstrating my ability to design, build,
+           and deploy intelligent systems from concept to production.
           </p>
         </div>
 

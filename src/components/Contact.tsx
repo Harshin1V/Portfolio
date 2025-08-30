@@ -44,19 +44,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@johndeveloper.com',
-      href: 'mailto:hello@johndeveloper.com'
+      value: 'harshinivutukuri1@gmail.com',
+      href: 'mailto:harshinivutukuri5@gmail.com'
     },
-    {
-      icon: Phone,
-      title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
-    },
+    // {
+    //   icon: Phone,
+    //   title: 'Phone',
+    //   value: '+1 (555) 123-4567',
+    //   href: 'tel:+15551234567'
+    // },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Hyderabad, India',
       href: null
     }
   ];

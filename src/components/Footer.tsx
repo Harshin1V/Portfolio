@@ -3,8 +3,8 @@ import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
-    { href: 'https://github.com', icon: Github, label: 'GitHub' },
-    { href: 'https://linkedin.com', icon: Linkedin, label: 'LinkedIn' },
+    { href: 'https://github.com/Harshin1V', icon: Github, label: 'GitHub' },
+    { href: 'https://www.linkedin.com/in/harshini1v/', icon: Linkedin, label: 'LinkedIn' },
     { href: 'mailto:hello@johndeveloper.com', icon: Mail, label: 'Email' },
   ];
 
@@ -25,7 +25,7 @@ const Footer = () => {
               &lt;Portfolio /&gt;
             </a>
             <p className="text-muted-foreground">
-              Full Stack Developer passionate about creating digital experiences 
+              AI/ML Developer Crafting AI Systems that Think, Learn & Scale
               with clean code and modern technologies.
             </p>
             <div className="flex space-x-2">
@@ -65,8 +65,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold">Contact</h3>
             <div className="space-y-2 text-muted-foreground">
-              <p>hello@johndeveloper.com</p>
-              <p>San Francisco, CA</p>
+              <p>harshinivutukuri1@gmail.com</p>
+              <p>Hyderabad, India</p>
               <p>Available for freelance work</p>
             </div>
           </div>

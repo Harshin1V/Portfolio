@@ -33,7 +33,7 @@ const Hero = () => {
             
           </h2 >
           <p className="text-muted-foreground font-light tracking-wide">
-          Passionate about building <span className="text-primary font-semibold">scalable applications</span> that solve real-world problems with <br /> Production-Ready <span className="text-primary font-semibold">AI Solutions.</span>
+          Crafting <span className="text-primary font-semibold">AI Systems</span> that Think, Learn & Scale...
           </p>
         </div>
 
